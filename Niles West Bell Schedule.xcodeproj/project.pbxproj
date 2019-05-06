@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49DC642A228082EF00142A2B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49DC6429228082EF00142A2B /* GoogleService-Info.plist */; };
 		4AD150952268CBAB00082E98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD150942268CBAB00082E98 /* AppDelegate.swift */; };
 		4AD150972268CBAB00082E98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD150962268CBAB00082E98 /* ViewController.swift */; };
 		4AD1509A2268CBAB00082E98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AD150982268CBAB00082E98 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		49DC6429228082EF00142A2B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4AD150912268CBAB00082E98 /* Niles West Bell Schedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Niles West Bell Schedule.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AD150942268CBAB00082E98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4AD150962268CBAB00082E98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				4AD1509B2268CBAC00082E98 /* Assets.xcassets */,
 				4AD1509D2268CBAC00082E98 /* LaunchScreen.storyboard */,
 				4AD150A02268CBAC00082E98 /* Info.plist */,
+				49DC6429228082EF00142A2B /* GoogleService-Info.plist */,
 			);
 			path = "Niles West Bell Schedule";
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AD1509F2268CBAC00082E98 /* LaunchScreen.storyboard in Resources */,
+				49DC642A228082EF00142A2B /* GoogleService-Info.plist in Resources */,
 				4AD1509C2268CBAC00082E98 /* Assets.xcassets in Resources */,
 				4AD1509A2268CBAB00082E98 /* Main.storyboard in Resources */,
 			);
@@ -361,13 +365,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5AM4378YJ3;
+				DEVELOPMENT_TEAM = 4A8MPXMBPS;
 				INFOPLIST_FILE = "Niles West Bell Schedule/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Niles-West-Bell-Schedule";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Niles-West-Bell-Schedule-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -379,13 +383,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5AM4378YJ3;
+				DEVELOPMENT_TEAM = 4A8MPXMBPS;
 				INFOPLIST_FILE = "Niles West Bell Schedule/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Niles-West-Bell-Schedule";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Niles-West-Bell-Schedule-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
