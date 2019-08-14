@@ -7,14 +7,30 @@
 //
 
 import UIKit
+import Firebase
+
+var todaysDate = ""
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        setColors()
+        loadSchedule()
+    }
+    
+    func setColors(){
+        
     }
 
-
+    func loadSchedule(){
+        let cal = Calendar.current
+        let components = cal.dateComponents([ .month, .day, .weekday], from: Date())
+        print("date\(components)")
+        let currentMonth = components.month ?? 0
+        let currentDay = components.day ?? 0
+        print("\(currentMonth)-\(currentDay)")
+        
+    }
 }
 
