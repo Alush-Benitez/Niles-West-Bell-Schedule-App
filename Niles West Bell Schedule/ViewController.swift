@@ -8,13 +8,18 @@
 
 import UIKit
 import Firebase
+import FirebaseDatabase
 
 var todaysDate = ""
 
 class ViewController: UIViewController {
+    
+    
+    var ref: DatabaseReference!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        ref = Database.database().reference()
         setColors()
         loadSchedule()
     }
@@ -31,6 +36,12 @@ class ViewController: UIViewController {
         let currentDay = components.day ?? 0
         print("\(currentMonth)-\(currentDay)")
         
+        ref.child("schedules").child("regular").observeSingleEvent(of: .value, with: { (snapshot) in
+            let value = snapshot.value as? NSDictionary
+            print(value)
+        }) { (error) in
+            print(error.localizedDescription)
+        }
     }
 }
 
