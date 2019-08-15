@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		49DC642A228082EF00142A2B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49DC6429228082EF00142A2B /* GoogleService-Info.plist */; };
+		4A00E9A8228323860045B311 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A00E9A7228323860045B311 /* HomeViewController.swift */; };
+		4A00E9AA228475490045B311 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A00E9A9228475490045B311 /* Color.swift */; };
+		4A00E9AC228479BE0045B311 /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A00E9AB228479BE0045B311 /* MainCollectionViewCell.swift */; };
 		4AD150952268CBAB00082E98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD150942268CBAB00082E98 /* AppDelegate.swift */; };
 		4AD150972268CBAB00082E98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD150962268CBAB00082E98 /* ViewController.swift */; };
 		4AD1509A2268CBAB00082E98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AD150982268CBAB00082E98 /* Main.storyboard */; };
@@ -28,6 +31,9 @@
 
 /* Begin PBXFileReference section */
 		49DC6429228082EF00142A2B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4A00E9A7228323860045B311 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4A00E9A9228475490045B311 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		4A00E9AB228479BE0045B311 /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
 		4AD150912268CBAB00082E98 /* Niles West Bell Schedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Niles West Bell Schedule.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AD150942268CBAB00082E98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4AD150962268CBAB00082E98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,13 +85,16 @@
 		4AD150932268CBAB00082E98 /* Niles West Bell Schedule */ = {
 			isa = PBXGroup;
 			children = (
-				4AD150942268CBAB00082E98 /* AppDelegate.swift */,
-				4AD150962268CBAB00082E98 /* ViewController.swift */,
 				4AD150982268CBAB00082E98 /* Main.storyboard */,
+				4A00E9A7228323860045B311 /* HomeViewController.swift */,
+				4A00E9AB228479BE0045B311 /* MainCollectionViewCell.swift */,
+				4A00E9A9228475490045B311 /* Color.swift */,
 				4AD1509B2268CBAC00082E98 /* Assets.xcassets */,
 				4AD1509D2268CBAC00082E98 /* LaunchScreen.storyboard */,
 				4AD150A02268CBAC00082E98 /* Info.plist */,
 				49DC6429228082EF00142A2B /* GoogleService-Info.plist */,
+				4AD150942268CBAB00082E98 /* AppDelegate.swift */,
+				4AD150962268CBAB00082E98 /* ViewController.swift */,
 			);
 			path = "Niles West Bell Schedule";
 			sourceTree = "<group>";
@@ -202,7 +211,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AD150972268CBAB00082E98 /* ViewController.swift in Sources */,
+				4A00E9AA228475490045B311 /* Color.swift in Sources */,
+				4A00E9AC228479BE0045B311 /* MainCollectionViewCell.swift in Sources */,
 				4AD150952268CBAB00082E98 /* AppDelegate.swift in Sources */,
+				4A00E9A8228323860045B311 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
